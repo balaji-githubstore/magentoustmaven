@@ -19,7 +19,7 @@ public class BaseTest {
 	public void openBrowser()
 	{
 		driver =new ChromeDriver();
-		wait=new WebDriverWait(driver, 82);
+		wait=new WebDriverWait(driver, 57);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 	}
