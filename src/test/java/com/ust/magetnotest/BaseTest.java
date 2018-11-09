@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -18,7 +19,7 @@ public class BaseTest {
 	@BeforeClass
 	public void openBrowser()
 	{
-		driver =new ChromeDriver();
+		driver =new InternetExplorerDriver();
 		wait=new WebDriverWait(driver, 57);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
