@@ -1,7 +1,7 @@
 package com.ust.magetnotest;
 
 import java.util.concurrent.TimeUnit;
-
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,7 +19,7 @@ public class BaseTest {
 	@BeforeClass
 	public void openBrowser()
 	{
-		driver =new InternetExplorerDriver();
+		driver =new FirefoxDriver();
 		wait=new WebDriverWait(driver, 57);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
