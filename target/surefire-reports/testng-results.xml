@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.ust.magetnotest.BaseTest" duration-ms="35716" started-at="2018-11-09T09:27:08Z" finished-at="2018-11-09T09:27:43Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="35716" started-at="2018-11-09T09:27:08Z" finished-at="2018-11-09T09:27:43Z">
+      <class name="com.ust.magetnotest.BaseTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ust.magetnotest.BaseTest@cd8737]" name="openBrowser" is-config="true" duration-ms="11908" started-at="2018-11-09T09:27:08Z" finished-at="2018-11-09T09:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="magentoTest()[pri:0, instance:com.ust.magetnotest.BaseTest@cd8737]" name="magentoTest" duration-ms="22881" started-at="2018-11-09T09:27:20Z" finished-at="2018-11-09T09:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- magentoTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.ust.magetnotest.BaseTest@cd8737]" name="closeBrowser" is-config="true" duration-ms="799" started-at="2018-11-09T09:27:43Z" finished-at="2018-11-09T09:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ust.magetnotest.BaseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.ust.magetnotest.BaseTest -->
+</testng-results>
